@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+<head>
+<title>Student registration form in html with header and footer</title>
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css>
+</head>
+<body >
+<style>
+  .purple{color:purple}
+</style>
+  <nav >
+<span class="purple"style="text-decoration: underline;"
+<a href="/">Home</a></span>|
+    <a href="/contact">Contact</a>|
+    <a href="/about">About</a>|
+    <a href="/project">Project</a>
+  </nav>
+  <h1 <br><b>Student Registration Form</b><br></h1>
+      <label for="fname">First name:</label><br>
+     <input type="text" id="fname" name = "fame" ><br>
+     <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname:" ><br><br>
+      DOB:<br>
+      <input type="date" id="dd--mm-yyyy" name = "DOB:" value="dd-mm-yyyy"><br>
+    
+        <br>
+        Father's Name:<br>
+        <input type="text" id="Father's Name" name = "Father's Name" ><br>
+  <br>
+        Document:<br>
+       <input type="radio" name="Document:" name="doc">Aadhaar<br>
+       <input type="radio" name="Document:" name="doc">Driving License<br>
+       <input type="radio" name="Document:" name="doc">Other <br>
+       <br>
+      GENDER:
+      <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         <option value="Other">Other</option>
+      </select>
+      <br><br>
+     
+       <label for="description">Description:</label> 
+<br>
+<textarea id="w3review" name="description" row="10" cols="50"></textarea>
+</textarea>
+  <br><br>
+<input type="checkbox" id= "confirm" name="confirm">Confirm<br>
+<input type="submit" id="submit"><br><br>
+
+<footer>
+
+   <div style="color:black;text-align:"left">
+    Made by geekhaven 
+    <i class="fa fa-address-book" aria-hidden="true"></i>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+    <i class = "fab fa-instagram" aria-hidden="true"></i>
+    </div>
+</footer>
+</body>
+</html>
